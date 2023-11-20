@@ -5,25 +5,25 @@ const Hero = () => {
     <div id="hero" className='w-full h-screen'>
         <div className='max-w-[1240px] mx-auto p-1'>
             <div className='mt-[100px] mb-[100px]'>
-                <h2 className='text-center'>Welcome to Soccer Predict</h2>
-                <p className='text-center uppercase pt-2 tracking-wider'>A platform to predict the score of incoming soccer matches.</p>
+                <h2 className='text-center text-[#042138e3]'>Welcome to Soccer Predict</h2>
+                <p className='text-gray-400 text-center uppercase pt-2 tracking-wider'>A platform to predict the score of incoming soccer matches</p>
             </div>
             <div className='max-w-[1050px] mx-auto'>
-                <h3>Let's Predict</h3>
-                <p className='text-sm tracking-wider'>Enter the information about the match you want to predict</p>
+                <h3 className='text-[#042138e3]'>Let's Predict</h3>
+                <p className='text-gray-500 text-sm tracking-wider'>Enter the information about the match you want to predict</p>
                 <div className='mt-[25px]'>
                     <form action="">
                         <div className='grid grid-cols-3 gap-8'>
                             <div className='flex flex-col'>
-                                <label className='text-lg' for='home_team'>Home Team</label>
+                                <label className='text-[#042138e3] text-lg' for='home_team'>Home Team</label>
                                 <input className='text-[#021321e3] px-2 h-[45px] rounded-lg border-gray-300 border-[2px] focus:outline-[2px] outline-gray-400' id='home_team' type='text' name='home_team'/>
                             </div>
                             <div className='flex flex-col'>
-                                <label className='text-lg' for='away_team'>Away Team</label>
+                                <label className='text-[#042138e3] text-lg' for='away_team'>Away Team</label>
                                 <input className='text-[#021321e3] px-2 h-[45px] rounded-lg border-gray-300 border-[2px] focus:outline-[2px] outline-gray-400' id='away_team' type='text' name='away_team'/>
                             </div>
                             <div className='flex flex-col'>
-                                <label className='text-lg' for='date'>Date</label>
+                                <label className='text-[#042138e3] text-lg' for='date'>Date</label>
                                 <input className='text-[#021321e3] px-2 h-[45px] rounded-lg border-gray-300 border-[2px] focus:outline-[2px] outline-gray-400' id='date' type='date' name='date'/>
                             </div>
 
