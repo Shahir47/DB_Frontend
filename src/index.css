@@ -6,6 +6,28 @@ html {
     scroll-behavior: smooth;
 }
 
+.tooltip {
+    position: relative;
+}
+
+.tooltip-text {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    text-align: center;
+    color: rgb(2, 31, 65);
+    /* width: 55px; */
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(2, 31, 65);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
 @layer base{
     body {
         @apply bg-[#efeded]
