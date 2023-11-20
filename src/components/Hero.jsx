@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div id="hero" className='w-full h-screen'>
         <div className='max-w-[1240px] mx-auto p-1'>
-            <div className='mt-[100px] mb-[150px]'>
+            <div className='mt-[100px] mb-[100px]'>
                 <h2 className='text-center'>Welcome to Soccer Predict</h2>
                 <p className='text-center uppercase pt-2 tracking-wider'>A platform to predict the score of incoming soccer matches.</p>
             </div>
@@ -34,6 +34,32 @@ const Hero = () => {
                             <div></div>
                         </div>
                     </form>
+                </div>
+
+                <div className='mt-[50px]'>
+                    <div className='p-2 h-[140px] max-w-[1050px] mx-auto shadow-md shadow-gray-300 rounded-lg flex items-center justify-between'>
+                        <div className='sm:ml-[85px] h-[50px] border-2 p-2 bg-gray-100 rounded-xl'>
+                            <p className='text-[#042138e3]'>Home_Team_Name</p>
+                        </div>
+                        <div className='text-[#042138e3]'>
+                            <h2 className='text-4xl font-medium'>1</h2>
+                        </div>
+                        <div className='text-[#042138e3]'>
+                            <h2 className='font_cursive text-4xl font-medium'>vs</h2>
+                        </div>
+                        <div className='text-[#042138e3]'>
+                            <h2 className='text-4xl font-medium'>0</h2>
+                        </div>
+                        <div className='sm:mr-[85px] h-[50px] border-2 p-2 bg-gray-100 rounded-xl'>
+                            <p className='text-[#042138e3]'>Away_Team_Name</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='mt-[35px]'>
+                    <a href='#hist'>
+                        <p className='border-2 border-[#0d406a] inline p-[6px] text-[14px] rounded-lg text-white bg-[#0d406ae3]'>Last Five Predictions</p>
+                    </a>
                 </div>
             </div>
         </div>

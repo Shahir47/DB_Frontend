@@ -11,6 +11,10 @@ html {
     font-family: Cambria;
 }
 
+.font_cursive {
+    font-family: cursive;
+}
+
 .tooltip {
     position: relative;
 }
@@ -35,7 +39,7 @@ html {
 
 @layer base{
     body {
-        @apply bg-[#f9f7f7]
+        @apply bg-[#fcfbfb]
     }
 
     h1, h2, h3, h4, h5, h6 { 
