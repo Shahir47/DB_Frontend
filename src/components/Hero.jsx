@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div id="hero" className='w-full h-screen'>
+    <div id="hero" className='w-full h-screen flex items-center'>
         <div className='max-w-[1240px] mx-auto p-1'>
-            <div className='mt-[100px] mb-[100px]'>
+            <div className='mb-[100px]'>
                 <h2 className='text-center text-[#042138e3]'>Welcome to Soccer Predict</h2>
                 <p className='text-gray-400 text-center uppercase pt-2 tracking-wider'>A platform to predict the score of incoming soccer matches</p>
             </div>
@@ -29,7 +29,7 @@ const Hero = () => {
 
                             <div></div>
                             <div className='mx-auto '>
-                                <button className='rounded-lg text-lg bg-[#0d406ae3] text-white border-2 border-[#0d406a] h-[45px] w-[200px] flex justify-center items-center'>Submit</button>
+                                <button className='rounded-lg text-lg bg-[#0d406ae3] text-white border-2 border-[#0d406a] h-[45px] w-[100px] sm:w-[200px] flex justify-center items-center'>Submit</button>
                             </div>
                             <div></div>
                         </div>
